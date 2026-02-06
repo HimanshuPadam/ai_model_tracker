@@ -2,14 +2,14 @@
 
  AI Model Tracker
 
-1. Project Overview
+## 1. Project Overview
 
 AI Model Tracker is a web-based analytical platform built using Streamlit that enables users to compare modern AI models based on benchmarks, pricing, latency, and capabilities, and receive AI-assisted recommendations tailored to their use case.
 
 The platform integrates with the ScaleDown API to compress and optimize comparison context before sending it for AI reasoning, ensuring efficient and cost-effective analysis.
 
 
-2. Problem Statement
+## 2. Problem Statement
 
 With the rapid growth of AI models (GPT, Gemini, Claude, etc.), users face challenges in:
 
@@ -21,16 +21,16 @@ With the rapid growth of AI models (GPT, Gemini, Claude, etc.), users face chall
 Existing tools either lack visual comparison, custom recommendations, or cost transparency.
 
 
-3. Objectives
+## 3. Objectives
 
 * Provide a centralized comparison system for AI models
 * Enable visual benchmarking and cost analysis
-* Offer AI-powered recommendations based on user goals
+* Offer ## AI-powered recommendations based on user goals
 * Allow easy addition of new AI models
 * Reduce prompt size using ScaleDown compression
 
 
-4. Scope of the Project
+## 4. Scope of the Project
 # In Scope
 
 * AI model comparison
@@ -46,7 +46,7 @@ Existing tools either lack visual comparison, custom recommendations, or cost tr
 * Cloud database integration (future enhancement)
 
 
-5. System Architecture
+## 5. System Architecture
 
 # High-Level Architecture
 User
@@ -62,7 +62,7 @@ ScaleDown API
 AI Recommendation Output
 
 
-6. Technology Stack
+## 6. Technology Stack
 
 | Component       | Technology    |
 |  | - |
@@ -76,7 +76,7 @@ AI Recommendation Output
 | Platform        | Windows       |
 
 
-7. Project Structure
+## 7. Project Structure
 
 ai_model_tracker/
 ├── app.py
@@ -88,7 +88,7 @@ ai_model_tracker/
 └── PROJECT_DOCUMENTATION.md
 
 
-8. Functional Modules
+## 8. Functional Modules
 # 8.1 ModelDataEngine
 
 * Loads AI model data from JSON
@@ -135,7 +135,7 @@ Capability Fingerprint
 * Auto refreshes UI
 
 
-9. User Interface Description
+## 9. User Interface Description
 
 # Sidebar
 
@@ -152,7 +152,7 @@ Capability Fingerprint
 5. AI recommendation section
 
 
-10. Workflow
+## 10. Workflow
 
 1. User selects models from sidebar
 2. App filters model data
@@ -163,7 +163,7 @@ Capability Fingerprint
 7. AI generates recommendation
 
 
-11. API Integration (ScaleDown)
+## 11. API Integration (ScaleDown)
 
 * Endpoint: `/compress/raw`
 * Function:
@@ -173,7 +173,7 @@ Capability Fingerprint
   * Improves AI response efficiency
 
 
-12. Error Handling
+## 12. Error Handling
 
 * Empty selection checks
 * API retry mechanism
@@ -181,7 +181,7 @@ Capability Fingerprint
 * Timeout protection
 
 
-13. Advantages
+## 13. Advantages
 
 * Easy-to-use UI
 * Visual insights
@@ -190,7 +190,7 @@ Capability Fingerprint
 * Open-source friendly
 
 
-14. Limitations
+## 14. Limitations
 
 * Static pricing data
 * No authentication
@@ -198,7 +198,7 @@ Capability Fingerprint
 * Manual benchmark updates
 
 
-15. Future Enhancements
+## 15. Future Enhancements
 
 * Firebase / PostgreSQL integration
 * User login & saved comparisons
@@ -208,12 +208,12 @@ Capability Fingerprint
 * Deployment on Streamlit Cloud
 
 
-16. Conclusion
+## 16. Conclusion
 
 The AI Model Tracker successfully addresses the challenge of selecting the best AI model by combining data visualization, AI reasoning, and context compression. It serves as a practical tool for developers, researchers, and organizations evaluating AI solutions.
 
 
-17. References
+## 17. References
 
 * Streamlit Documentation
 * Pandas Documentation
